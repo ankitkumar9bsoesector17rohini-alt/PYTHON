@@ -1,0 +1,101 @@
+ print("hello\n world")
+ print('hello world')
+ print("line a \\\\n line b")
+ print(" \\\" \\ \'")
+ print("this is \\\\ double backslash")
+ print("this is /\\/\\/\\/\\/\\ mountain")
+ print("he is\t\t awesome")
+ print("\\\"\t \\n\t\\t \\\'")
+print("\U0001F603	")
+
+print("\U0001F604")
+print(2+3*8//6)
+ print(2**3)
+# print(2**0.5)
+# print (round(2**0.5,4))
+# print(2**3**2)
+# number1 = 2
+# print(number1)
+# number1 = 4
+# print(number1)
+# name = "harshit"
+# print(name)
+# name = "kalu"
+# print(name)
+# first_name="ankit"
+# last_name="kumar" 
+# full_name = first_name +  last_name
+# print(full_name)
+# name = input("type your name")
+# print( "hello"+ name)
+# age = input("what is your age?")
+# print("age of ankit" + age)
+# number_1 = int(input("enter first nnumber"))
+# number_2= int(input("enter second nnumber"))
+# total = number_1 + number_2
+# print ("total is"+ str (total))
+# number1 = str(4)
+# number2 = float("44")
+# number3= int("33")
+# print(number2+number3)
+# name ,age = "harshit","24"
+# print("hello "+  name +" your age is " + age)
+# x=y=Z=20
+# print("x= " + str(x))
+# name,age = input("enter your name and age ").split("/")
+# print(name)
+# print(age)
+# name ="ankit"
+# age=21
+# print("hello{} your age is{}".format(name,age +4))  #python3    
+
+# print(f"hello{name} your age is {age}")#3.6
+#exercise 1
+# number1 = int(input("enter first number"))
+# number2 = int(input("enter second number"))
+# number3 = int(input("enter third number"))
+# # average = float ((number1+number2+number3)/3)
+# print(f"the average of 3 number is = {(number1+number2+number3)/3} " )
+#string slicing
+# language=  "thankyou"
+# print(language[2:4])
+# print (language[1:])
+
+# print (language[:])
+# #step arguement
+# print (language[0:7:2])
+# print(language[::-1])
+
+# name = input("enter your name:")
+# # reverse = name [-1::-1]
+# print(f"the reverse order:{ name [-1::-1]}")
+#string method
+# name= "AnkIt kUMar"
+# length = len(name)
+# print(length)
+# print(name.lower())
+# print(name.upper())
+# print(name.title())
+# print(name.count("a"))
+
+# name,char = input("enter your name and character:").split(",")
+# # length = len(name)
+# print(f"length of your name is:  {len(name)}")
+# print(f"the character count is:{name.lower().count(char.lower())}")
+# # char_count = name.lower().count(char.lower())
+# # print(char_count)
+
+#strip method 
+# name = "      ank    it        "
+# dots="............."
+# print (name+dots)
+# print(name.lstrip()+dots)
+# print(name.rstrip()+dots)
+# print(name.strip()+dots)
+# print(name.replace(" ","")+dots)
+
+# replce and find method 
+# string = "she is beautiful and she is manipulator"
+# print(string.replace("is","was",1))
+# print(string.find("is", 5))
+#  
